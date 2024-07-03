@@ -17,7 +17,7 @@ export default function Staff() {
   useEffect(() => {
     console.log("Staff Page");
     if (!isLoaded) {
-      
+        
       }
     
   }, [isLoaded, token, user, router]);
