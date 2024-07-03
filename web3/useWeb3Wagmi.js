@@ -42,8 +42,9 @@ const useWeb3Wagmi = () => {
       alert("Please connect your wallet first.");
       return;
     }
-  
-    // logic here
+    
+    try {
+        // logic here
   
       return result;
     } catch (error) {
