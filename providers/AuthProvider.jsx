@@ -10,6 +10,7 @@ const AuthProvider = ({ children }) => {
   useEffect(() => {
     const fetchUser = async () => {
       //logic here 
+      // const user = await getUserAPI(token, refreshToken);
     };
 
     fetchUser();
